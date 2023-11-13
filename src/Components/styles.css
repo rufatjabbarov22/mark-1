@@ -1,0 +1,35 @@
+.carousel-container {
+  position: relative;
+  margin-bottom:-420px;
+  z-index: 1;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Для маленьких экранов, например, мобильных устройств */
+@media (max-width: 768px) {
+  .slick-prev {
+    left: 5px;
+  }
+
+  .slick-next {
+    right: 5px;
+  } 
+}
+
+

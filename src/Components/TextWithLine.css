@@ -1,0 +1,9 @@
+.text-with-line {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.underline {
+  text-decoration: underline;
+  margin-left: 5px; /* Добавьте отступ слева для создания расстояния */
+}

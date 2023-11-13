@@ -1,0 +1,250 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.bgContainer {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  position: absolute;
+  width: 72%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1.wlc {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.4);
+}
+
+.ths {
+  font-size: 20px;
+}
+
+.demo {
+  width: 200px;
+  height: 49px;
+  border-radius: 50px;
+}
+
+.workContainer {
+  background-color: #F2F7FF;
+  margin-top: 170px;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.requestDemo {
+  background-image: url(https://img.freepik.com/free-photo/group-of-people-working-out-business-plan-in-an-office_1303-15870.jpg?w=740&t=st=1698961396~exp=1698961996~hmac=df747720b764c5d1a9884006d189043fceadc205029218d001f2bbef659f1e03);
+  background-size: cover; /* Растягивает фотографию на всю область фона */
+  justify-content: center;
+  position: relative;
+  padding-top: 70px;
+  padding-left: 300px;
+  background-color: rgba(148, 0, 211, 0.6);
+  padding-top: 30px;
+}
+/* Исходные стили TextField */
+.myTextField {
+  background-color: white; /* Белый фон */
+}
+
+/* Стили при наведении курсора (hover) */
+.myTextField:hover {
+  background-color: #9b68ea; /* Фиолетовый фон при наведении */
+}
+
+.subsec {
+  text-align: center;
+}
+
+.Pstyle{
+  color: #FFFFFF;
+  margin-right: 80px;
+  display: inline-block;
+}
+
+.pStyle {
+  color: #FFFFFF;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Добавьте медиазапросы для более отзывчивого дизайна */
+
+/* Для мобильных устройств (максимальная ширина 600px) */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    font-size: 20px;
+  }
+  h1.wlc {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  .demo {
+    width: 150px;
+    height: 40px;
+  }
+
+ .bgContainer {
+  height: 560px;
+  }
+
+  .carousel-container{
+    width: 350px;
+    height: 350px;
+    padding-left: 40px;
+    padding-top: 44px;
+  }
+
+  .homeImg {
+    width: 350px;
+    height: 350px;
+  }
+
+  .requestDemo {
+    background-image: url(https://img.freepik.com/free-photo/group-of-people-working-out-business-plan-in-an-office_1303-15870.jpg?w=740&t=st=1698961396~exp=1698961996~hmac=df747720b764c5d1a9884006d189043fceadc205029218d001f2bbef659f1e03);
+    background-size: cover; /* Растягивает фотографию на всю область фона */
+    background-color: rgba(148, 0, 211, 0.6);
+    justify-content: center;
+    position: relative;
+    padding-top: 80px;
+    padding-left: 10px;
+  }
+}
+
+
+/* Для планшетов и маленьких ноутбуков (максимальная ширина 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+    font-size: 40px;
+  }
+  h1.wlc {
+    font-size: 45px;
+  }
+  .demo {
+    width: 180px;
+    height: 45px;
+  }
+}
+
+/* Для мобильных устройств (максимальная ширина 600px) */
+@media (max-width: 600px) {
+  .workContainer {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .workContainer h4 {
+    font-size: 28px;
+  }
+}
+
+/* Для планшетов и маленьких ноутбуков (максимальная ширина 1024px) */
+@media (max-width: 1024px) {
+  .workContainer h4 {
+    font-size: 36px;
+  }
+}
+
+
+/* Пример медиа-запроса для мобильных устройств */
+@media (max-width: 768px) {
+  .slider-container {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    font-size: 20px;
+  }
+  h1.wlc {
+    font-size: 40px;
+    margin-top: -220px;
+    font-weight: 300;
+  }
+  .demo {
+    width: 150px;
+    height: 40px;
+  }
+
+ .bgContainer {
+  height: 670px;
+  }
+
+  .carousel-container{
+    width: 290px;
+    height: 210px;
+    margin-top: 40px;
+  }
+
+  .homeImg {
+    width: 290px;
+    height: 210px;
+  }
+
+  .requestDemo {
+    background-image: url(https://img.freepik.com/free-photo/group-of-people-working-out-business-plan-in-an-office_1303-15870.jpg?w=740&t=st=1698961396~exp=1698961996~hmac=df747720b764c5d1a9884006d189043fceadc205029218d001f2bbef659f1e03);
+    background-size: cover; /* Растягивает фотографию на всю область фона */
+    background-color: rgba(148, 0, 211, 0.6);
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 10px;
+  }
+
+  .aboutGrid {
+    margin-top: 30px;
+  }
+
+  .ths {
+    font-size: 18px;
+  }
+
+  
+.demo {
+  width: 200px;
+  height: 49px;
+  border-radius: 50px;
+}
+} 
